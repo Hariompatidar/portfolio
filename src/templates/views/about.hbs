@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+     {{>header}} 
+      <!-- ABOUT SECTION START -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Hariom Patidar and <span>Web developer</span></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero et id harum
+                                        dolor expedita. Inventore consequuntur animi cumque eius porro incidunt nostrum
+                                        labore sequi omnis dolore similique voluptates fugiat iure repellat quisquam hic
+                                        placeat nobis, minus, totam cum exercitationem a autem. Eos, excepturi eum? Quos
+                                        tempore nobis atque exercitationem deleniti sint consectetur id laborum?</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row padd-15">
+                                        {{!-- <div class="info-item">
+                                            <p>Birthday : <span>09 Nov 2002</span></p>
+                                        </div> --}}
+                                        {{!-- <div class="info-item">
+                                            <p>Age : <span>20</span></p>
+                                        </div> --}}
+                                        {{!-- <div class="info-item">
+                                            <p>Website : <span>www.domain.com</span></p>
+                                        </div> --}}
+                                        <div class="info-item">
+                                            <p>Email : <span>patidar101hariom@gmail.com</span></p>
+                                        </div>
+                                        {{!-- <div class="info-item">
+                                            <p>Degree : <span>B.tech(CS)</span></p>
+                                        </div> --}}
+                                        <div class="info-item">
+                                            <p>Phone : <span>+91 9893603001</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Address : <span>Lalghati, Bhopal Madhya Pradesh, 462001</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Linkedin : <span>hariom-patidar-612b01210</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <!-- <a href="#" class="btn">Download CV</a> -->
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row padd-15">
+                                        <div class="skill-item">
+                                            <h5>Java</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padd-15">
+                                        <div class="skill-item">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padd-15">
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padd-15">
+                                        <div class="skill-item">
+                                            <h5>Javascript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padd-15">
+                                        <div class="skill-item">
+                                            <h5>MySQL</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row padd-15">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2020-Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor of Technology</h4>
+                                                    <p class="timeline-text">Computer Science & Engineering <br>RGPV Bhopal Madhya Pradesh <br>Truba Institute of Engineering and Information Technology Bhopal <br>with 8.73 CGPA(till 5th semester) </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2019-20
+                                                    </h3>
+                                                    <h4 class="timeline-title">Higher Secondary Education</h4>
+                                                    <p class="timeline-text">Vivekanand Rashtriya Vidhyalaya <br>with 72.6%.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2017-18
+                                                    </h3>
+                                                    <h4 class="timeline-title">High School</h4>
+                                                    <p class="timeline-text">Vivekanand Rashtriya Vidhyalaya <br>with 90.4%.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experiance padd-15">
+                                    <h3 class="title">Acadamic Activities</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2013-2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus? Assumenda autem consectetur fugit beatae obcaecati quo, ipsum sint maxime ratione ad nobis provident numquam sequi, quisquam at eveniet. Voluptas!</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2013-2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus? Assumenda autem consectetur fugit beatae obcaecati quo, ipsum sint maxime ratione ad nobis provident numquam sequi, quisquam at eveniet. Voluptas!</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa far fa-calendar"></i>2013-2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus? Assumenda autem consectetur fugit beatae obcaecati quo, ipsum sint maxime ratione ad nobis provident numquam sequi, quisquam at eveniet. Voluptas!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ABOUT SECTION END -->
+</body>
+</html>
